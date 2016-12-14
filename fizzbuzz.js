@@ -24,7 +24,7 @@ function domResult(event) {
 }
 
 // event listeners
-var form = document.querySelectorAll("fizz-form");
+var form = document.getElementById("fizz-form");
 form.addEventListener('submit', domResult);
 
 // exporting the fizzBuzz function for mocha tests
