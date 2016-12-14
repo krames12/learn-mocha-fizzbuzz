@@ -12,6 +12,7 @@ describe('FizzBuzz', function() {
     describe('number', function(){
         it('should return the number that was submitted', function() {
             assert.equal('1', fizzBuzz(1));
+            assert.equal('2', fizzBuzz(2));
         });
     });
 });
