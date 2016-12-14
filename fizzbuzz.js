@@ -1,5 +1,10 @@
 function fizzBuzz(num) {
-    return num;
+    if(num % 3 == 0) {
+      return 'fizz';
+    }
+    else {
+      return num;
+    }
 }
 
 module.exports = {

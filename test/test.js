@@ -15,4 +15,10 @@ describe('FizzBuzz', function() {
             assert.equal('2', fizzBuzz(2));
         });
     });
+    describe('fizz', function(){
+        it('should return fizz when the number is a multiple of three', function() {
+            assert.equal('fizz', fizzBuzz(3));
+            assert.equal('fizz', fizzBuzz(9));
+        });
+    });
 });
