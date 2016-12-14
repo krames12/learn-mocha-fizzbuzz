@@ -27,4 +27,9 @@ describe('FizzBuzz', function() {
             assert.equal('buzz', fizzBuzz(10));
         });
     });
+    describe('fizzBuzz', function(){
+        it('should return fizzbuzz when the number is a multiple of three & five', function(){
+            assert.equal('fizzbuzz', fizzBuzz(15));
+        });
+    });
 });
