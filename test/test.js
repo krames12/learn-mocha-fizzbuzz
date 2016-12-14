@@ -21,4 +21,10 @@ describe('FizzBuzz', function() {
             assert.equal('fizz', fizzBuzz(9));
         });
     });
+    describe('buzz', function(){
+        it('should return buzz when the number is a multiple of five', function() {
+            assert.equal('buzz', fizzBuzz(5));
+            assert.equal('buzz', fizzBuzz(10));
+        });
+    });
 });
