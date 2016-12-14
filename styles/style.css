@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+main {
+  width: 70%;
+  margin: 10% auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+#number-input {
+  font-size: 1.5rem;
+  padding: 5px;
+  width: 200px;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
