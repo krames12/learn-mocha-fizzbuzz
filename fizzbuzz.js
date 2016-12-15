@@ -25,8 +25,9 @@ function domResult(event) {
 }
 
 // listening for input event on #number-input
-var numInput = document.getElementById('number-input');
+var numInput = document.getElementById("number-input");
 numInput.addEventListener('input', domResult);
+console.log('numinput', numInput);
 
 // event listeners
 var form = document.getElementById("fizz-form");
